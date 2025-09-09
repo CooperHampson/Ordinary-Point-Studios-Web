@@ -1,0 +1,25 @@
+.content-grid {
+  display: grid;
+  grid-template-rows: 480px 240px 360px;
+  row-gap: 24px;
+  column-gap: 24px;
+}
+
+.main-heading {
+  height: 480px;
+  background-color: lightblue;
+}
+
+.news-section {
+  height: 240px;
+  background-color: lightpink;
+}
+
+.contact-section {
+  background-color: lightblue;
+}
+
+.games-text {
+  font-family: Roboto, Arial;
+  font-size: 64px;
+}
