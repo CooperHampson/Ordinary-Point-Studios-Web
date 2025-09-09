@@ -8,24 +8,71 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="styles/content.css">
 
   </head>
   <body>
     <div class="header">
       <div class="left-section">
+        <p class="company-name">
+          Ordinary Point Studios
+        </p>
       </div>
       <div class="middle-section">
-        <input class="search-bar" tpye="text" placeholder="Search">
+
       </div>
       <div class="right-section">
-        <button class="menu-button">
+        <button class="menu-button" onclick="toggleSidebar()">
           <img class="menu-logo" src="menu-icons/hamburger-menu.svg">
         </button>
       </div>
     </div>
 
     <div class="sidebar">
-
+      <div class="sidebar-link">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <div>About</div>
+      </div>
+      <div class="sidebar-link">
+        <div>Games</div>
+      </div>
+      <div class="sidebar-link">
+        <div>Software & Services</div>
+      </div>
+      <div class="sidebar-link">
+        <div>Shop</div>
+      </div>
     </div>
+
+    <div class="content-grid">
+      <div class="main-heading">
+        <div class="heading-image-row">
+          <img class="heading-img" src="">
+          <div class="heading-text">
+            Test
+          </div>
+        </div>
+      </div>
+      <div class="news-section">
+        <div class="news-row">
+          <p class="news-text">
+            Test
+          </p>
+        </div>
+      </div>
+      <div class="contact-section">
+        <div class="contact-row">
+          <p class="contact-text">
+            Contact us via:
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="sidebar.js"></script>
   </body>
 </html>
