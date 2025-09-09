@@ -2,16 +2,14 @@
   height: 120px;
   display: flex;
   justify-content: space-between;
-  border: 1px solid gray;
 
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
 
-  background-color: rgb(247, 247, 54);
-
-  z-index: 100;
+  background-color: rgb(9, 138, 143);
+  border-bottom: 1px solid black;
 }
 
 .left-section {
@@ -20,8 +18,9 @@
 }
 
 .company-name {
-  height: 2px;
   margin-left: 24px;
+  font-family: Roboto, Arial;
+  font-size: 36px;
 }
 
 .middle-section {
@@ -33,46 +32,29 @@
   max-width: 800px;
 }
 
-.search-bar {
-  flex: 1;
-  height: 38px;
-  padding-left: 10px;
-  border: 1px solid gray;
-  border-radius: 19px;
-  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.15);
-  width: 0;
-  font-size: 16px;
-  font-family: Roboto, Arial;
-}
-
-.search-bar::placeholder {
-  font-family: Roboto, Arial;
-  font-size: 16px;
-}
-
 .right-section {
   display: flex;
+  width: 96px;
+  background-color: rgb(9, 138, 143);
   align-items: center;
+  justify-content: end;
+  flex-shrink: 0;
 }
 
 .menu-button {
-  background-color: rgb(247, 247, 54);
   border: none;
-  height: 32px;
-  width: 40px;
-  margin-right: 24px;
-  cursor: pointer;
+  width: 52px;
+  height: 40px;
   display: flex;
+  margin-right: 68px;
   justify-content: center;
   align-items: center;
-}
-
-.menu-button:active {
-  
+  cursor: pointer;
+  background-color: rgb(9, 138, 143);
 }
 
 .menu-logo {
-  padding-top: 1px;
-  height: 54px;
+  height: 64px;
 }
+
 
