@@ -4,7 +4,7 @@
   top: 121px;
   bottom: 0;
   width: 192px;
-  background-color: white;
+  background-color: rgb(187, 177, 84);
   border: none;
   transition: opacity 0.15s;
   opacity: 0;
@@ -23,6 +23,7 @@
 .sidebar-link {
   height: 92px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   font-family: Roboto, Arial;
@@ -32,15 +33,22 @@
 }
 
 .sidebar-link:hover {
-  background-color: rgb(196, 196, 196);
+  background-color: rgba(255, 255, 255, 0.356);
 }
 
 .sidebar-link a {
-  text-decoration: none;
-  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: 100%;
-  line-height: 92px;
-  text-align: center;
+  text-decoration: none;
+  color: white;
   border-radius: 20px;
+}
+
+.sidebar-link img {
+  height: 44px;
+  margin-bottom: 10px;
 }
