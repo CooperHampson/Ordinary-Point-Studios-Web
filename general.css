@@ -1,0 +1,11 @@
+body {
+  padding-top: 130px;
+  padding-left: 24px;
+  padding-right: 24px;
+  transition: padding-right 0.15s;
+  background-color: rgb(36, 36, 36);
+}
+
+body.sidebarActive {
+  padding-right: 216px;
+}
