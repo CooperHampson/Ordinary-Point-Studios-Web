@@ -7,10 +7,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="styles/general.css">
-    <link rel="stylesheet" href="styles/sidebar.css">
-    <link rel="stylesheet" href="styles/about-content.css">
+    <link rel="stylesheet" href="/styles/header.css">
+    <link rel="stylesheet" href="/styles/general.css">
+    <link rel="stylesheet" href="/styles/sidebar.css">
+    <link rel="stylesheet" href="/styles/about-content.css">
 
   </head>
   <body>
@@ -26,6 +26,7 @@
         </p>
       </div>
       <div class="middle-section">
+        <input class="header-search-bar" type="text" id="searchBar" placeholder="Search...">
       </div>
       <div class="right-section">
         <a class="contact-info" href="contact.html">
@@ -42,33 +43,39 @@
       <nav>
         <ul class="sidebar-list">
           <li class="sidebar-link">
-            <a href="index.html">
-              <img class="shop-icon" src="menu-icons/home-page-white-icon.webp" alt="Home Icon">
+            <a href="/index.html">
+              <img class="shop-icon" src="/menu-icons/home-page-white-icon.webp" alt="Home Icon">
               Home
             </a>
           </li>
           <li class="sidebar-link">
-            <a href="about.html">
-              <img class="shop-icon" src="menu-icons/info.svg" alt="About Icon">
+            <a href="/about/">
+              <img class="shop-icon" src="/menu-icons/info.svg" alt="About Icon">
               About
             </a>
           </li>
           <li class="sidebar-link">
             <a href="games.html">
-              <img class="shop-icon" src="menu-icons/controller-new.ps.svg" alt="Games Icon">
+              <img class="shop-icon" src="/menu-icons/controller-new.ps.svg" alt="Games Icon">
               Games
             </a>
           </li>
           <li class="sidebar-link">
             <a href="software.html">
-              <img class="shop-icon" src="menu-icons/software-new.svg" alt="Software Icon">
+              <img class="shop-icon" src="/menu-icons/software-new.svg" alt="Software Icon">
               Software
             </a>
           </li>
           <li class="sidebar-link">
             <a href="https://shop.ordinarypointstudios.com" target="_blank">
-              <img class="shop-icon" src="menu-icons/Shop-ops-ps.svg" alt="Shop Icon">
+              <img class="shop-icon" src="/menu-icons/Shop-ops-ps.svg" alt="Shop Icon">
               Shop
+            </a>
+          </li>
+          <li class="sidebar-link">
+            <a href="contact.html">
+              <img class="shop-icon" src="/menu-icons/email.svg" alt="Contact Icon">
+              Contact
             </a>
           </li>
         </ul>
@@ -100,5 +107,6 @@
     </div>
 
     <script src="sidebar.js"></script>
+    <script src="header.js"></script>
   </body>
 </html>

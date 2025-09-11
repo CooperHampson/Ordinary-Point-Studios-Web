@@ -1,20 +1,107 @@
 .content-grid {
   display: grid;
-  grid-template-rows: 480px 240px 360px;
+  grid-template-rows: 600px 400px 480px 512px 240px;
   row-gap: 24px;
   column-gap: 24px;
 }
 
+p {
+  font-family: Roboto, Arial;
+}
+
+h1, h2 {
+  font-family: Roboto, Arial;
+}
+
+ul {
+  list-style-position: inside;
+  margin-top: 32px;
+}
+
 .main-heading {
+  height: 600px;
+  border-bottom: 1px solid rgb(151, 151, 151);
+}
+
+.page-title {
+  font-family: Roboto, Arial;
+  font-size: 96px;
+  text-align: center;
+}
+
+.about-section {
+  font-size: 36px;
+  width: 1080px;
+  text-align: center;
+  margin-left: 480px;
+}
+
+.games-section {
+  height: 400px;
+  border-bottom: 1px solid rgb(151, 151, 151);
+}
+
+.games-header {
+  font-size: 48px;
+  text-align: center;
+  margin-left: 480px;
+}
+
+.games-text {
+  font-size: 24px;
+  text-align: center;
+  margin-left: 912px;
+  width: 720px;
+}
+
+.software-section {
   height: 480px;
+  border-bottom: 1px solid rgb(151, 151, 151);
+}
+
+.software-header {
+ font-size: 48px;
+ text-align: center;
+ margin-left: 480px;
+}
+
+.software-text {
+  font-size: 24px;
+  width: 720px;
+  margin-left: 912px;
+  text-align: center;
+}
+
+.shop-section {
+  height: 512px;
+  border-bottom: 1px solid rgb(151, 151, 151);
+}
+
+.shop-header {
+ font-size: 48px;
+ text-align: center;
+ margin-left: 480px;
+}
+
+.shop-text {
+  font-size: 24px;
+  width: 720px;
+  margin-left: 912px;
+  text-align: center;
+}
+
+.end-page-info-section {
   background-color: lightblue;
 }
 
-.news-section {
-  height: 240px;
-  background-color: lightpink;
+.list-item {
+  margin-left: 400px;
+  margin-bottom: 6px;
 }
 
-.contact-section {
-  background-color: lightblue;
+.list-link {
+  font-family: Roboto, Arial;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
 }
